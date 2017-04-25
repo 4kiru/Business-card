@@ -9,7 +9,12 @@
     <author href="http://saldev.pl" email="mateusz.salawa@gmail.com">
 		Mateusz Salawa
 	</author>
-	<platform name="android" />
+	<splash src="res/screen/splash.png" platform="android" width="480" height="640" />
+    <preference name="SplashScreen" value="screen"/>
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="FadeSplashScreen" value="true"/>    
+    <preference name="FadeSplashScreenDuration" value="500"/>
 	<icon src="res/icon.png" platform="android" width="180" height="180" />
     
     
@@ -18,10 +23,5 @@
 	<plugin name="cordova-plugin-inappbrowser" spec="~1.6.1" />
     <plugin name="cordova-plugin-splashscreen" spec="~4.0.2" />
         
-        <splash src="res/screen/splash.png" platform="android" width="480" height="640" />
-        <preference name="SplashScreen" value="screen"/>
-    <preference name="AutoHideSplashScreen" value="true" />
-    <preference name="SplashScreenDelay" value="3000" />
-    <preference name="FadeSplashScreen" value="true"/>    
-         <preference name="FadeSplashScreenDuration" value="500"/>
+    
 </widget>
