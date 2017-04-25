@@ -18,19 +18,7 @@
 	<plugin name="cordova-plugin-inappbrowser" spec="~1.6.1" />
     <plugin name="cordova-plugin-splashscreen" spec="~4.0.2" />
         
-        <platform name="android">
-    <!-- you can use any density that exists in the Android project -->
-    <splash src="res/screen/splash.png" density="land-hdpi"/>
-    <splash src="res/screen/splash.png" density="land-ldpi"/>
-    <splash src="res/screen/splash.png" density="land-mdpi"/>
-    <splash src="res/screen/splash.png" density="land-xhdpi"/>
-
-    <splash src="res/screen/splash.png" density="port-hdpi"/>
-    <splash src="res/screen/splash.png" density="port-ldpi"/>
-    <splash src="res/screen/splash.png" density="port-mdpi"/>
-    <splash src="res/screen/splash.png" density="port-xhdpi"/>
-    
-        </platform>  
+        <splash src="res/screen/splash.png" platform="android" width="480" height="640" />
         <preference name="SplashScreen" value="screen"/>
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="SplashScreenDelay" value="3000" />
