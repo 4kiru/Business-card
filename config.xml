@@ -10,8 +10,19 @@
 		Mateusz Salawa
 	</author>
 	<platform name="android" />
-	<icon src="icon.png" platform="android" width="180" height="180" />
-    <splash src="/www/img/splash.jpg" />    
+	<icon src="res/icon.png" platform="android" width="180" height="180" />
+    <platform name="android">
+    <!-- you can use any density that exists in the Android project -->
+    <splash src="res/splash.png" density="land-hdpi"/>
+    <splash src="res/splash.png" density="land-ldpi"/>
+    <splash src="res/splash.png" density="land-mdpi"/>
+    <splash src="res/splash.png" density="land-xhdpi"/>
+
+    <splash src="res/splash.png" density="port-hdpi"/>
+    <splash src="res/splash.png" density="port-ldpi"/>
+    <splash src="res/splash.png" density="port-mdpi"/>
+    <splash src="res/splash.png" density="port-xhdpi"/>
+</platform>  
 	<plugin name="cordova-plugin-device" spec="~1.1.4" />
 	<plugin name="cordova-plugin-dialogs" spec="~1.3.1" />
 	<plugin name="cordova-plugin-inappbrowser" spec="~1.6.1" />
