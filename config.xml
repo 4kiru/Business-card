@@ -29,10 +29,11 @@
     <splash src="res/screen/splash.png" density="port-ldpi"/>
     <splash src="res/screen/splash.png" density="port-mdpi"/>
     <splash src="res/screen/splash.png" density="port-xhdpi"/>
-    <preference name="SplashScreen" value="screen"/>
+    
+        </platform>  
+        <preference name="SplashScreen" value="screen"/>
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="SplashScreenDelay" value="3000" />
     <preference name="FadeSplashScreen" value="true"/>    
          <preference name="FadeSplashScreenDuration" value="500"/>
-        </platform>  
 </widget>
